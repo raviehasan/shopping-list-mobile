@@ -41,6 +41,7 @@ class _LoginPageState extends State<LoginPage> {
       appBar: AppBar(
         title: const Text('Login'),
       ),
+      drawer: LeftDrawer(),
       body: Container(
         padding: const EdgeInsets.all(16.0),
         child: Column(
